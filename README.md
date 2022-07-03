@@ -1,4 +1,4 @@
-Asp.Net MVC Core 5 Entity Framework DB First projesi.
+Asp.Net MVC Core 5 Entity Framework Code First projesi.
 
 
 ![Ekran Alıntısı2](https://user-images.githubusercontent.com/91019037/177037173-2d173934-0c36-4ba1-b2e0-b7e69d659bfe.JPG)
