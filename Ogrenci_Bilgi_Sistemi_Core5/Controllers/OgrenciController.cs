@@ -66,20 +66,7 @@ namespace Ogrenci_Bilgi_Sistemi_Core5.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
-
-        public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                //return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Ogrenci ogrenci = _db.MyEntities.Find(id);
-            if (ogrenci == null)
-            {
-                //return HttpNotFound();
-            }
-            return View(ogrenci);
-        }
+     
 
         public ActionResult Edit(int? id)
         {
